@@ -1,6 +1,10 @@
 {
   "name": "shopez-backend",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikh2951/SHOPEZ.git"
+  },
   "description": "Backend server for ShopEZ e-commerce platform",
   "main": "server.js",
   "scripts": {

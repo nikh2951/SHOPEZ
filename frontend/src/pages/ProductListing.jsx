@@ -242,7 +242,9 @@ export default function ProductListing({ initialCategory, onSelectProduct, onBac
                             <span>{product.rating > 0 ? product.rating : 'New'} ({product.numReviews})</span>
                           </div>
                         </div>
-                                        <div className="product-footer" style={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'stretch' }}>
+                      </div>
+
+                      <div className="product-footer" style={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'stretch' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
                           <div className="price-container">
                             {product.discount > 0 && (
